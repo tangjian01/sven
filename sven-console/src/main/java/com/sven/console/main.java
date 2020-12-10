@@ -1,12 +1,18 @@
 package com.sven.console;
 
 import com.sven.console.pojo.Person;
+import org.junit.Test;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
 public class main {
     public static void main(String[] args){
+
+    }
+
+    @Test
+    public  void test(){
         KieServices kss = KieServices.get();
         KieContainer kc = kss.getKieClasspathContainer();
         KieSession ks = kc.newKieSession("testFirstRule");

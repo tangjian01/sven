@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="" />
+    <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-console/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-console/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-console/src/main/java/com/sven/console/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-console/src/main/java/com/sven/console/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-console/target/classes/com/sven/console/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/sven-console/target/classes/com/sven/console/main.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1lRb6C7iDAAhXFaWxpY7ukIyYXM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -56,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="JUnit.main.test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rules.test.Test" />
       <module name="sven-console" />
@@ -85,12 +95,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sven-console" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sven.console.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sven.console" />
+      <option name="MAIN_CLASS_NAME" value="com.sven.console.main" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.main" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.main.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.main.test" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Test" />
       </list>
@@ -106,12 +134,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607562672131</updated>
-      <workItem from="1607562674576" duration="3039000" />
+      <workItem from="1607562674576" duration="3707000" />
+      <workItem from="1607571314740" duration="790000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -125,6 +167,11 @@
           <url>file://$PROJECT_DIR$/sven-console/src/main/java/rules/test/Test.java</url>
           <line>12</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sven-console/src/main/java/com/sven/console/main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
