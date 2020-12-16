@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sven-console" />
+        <module name="sven-dao" />
+        <module name="sven-netty-client" />
+        <module name="sven-netty-sever" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
