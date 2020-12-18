@@ -13,3 +13,11 @@ import com.sven.console.pojo.Person
  then
    System.out.println("输出引用对象" + $t);
   end
+  rule "test003"
+   when
+    $t:Person();
+   then
+     System.out.println("输出引用对象" + $t);
+     $t.setAge(40);
+     update($t);
+    end

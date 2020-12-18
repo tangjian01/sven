@@ -20,6 +20,7 @@ public class main {
         ks.insert(p);
         int count = ks.fireAllRules();
         System.out.println("执行了" + count + "规则");
+        System.out.println("p="+p.getAge());
         ks.dispose();
     }
 }
