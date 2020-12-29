@@ -34,7 +34,7 @@ public class TimeServerHandler implements Runnable {
             String currentTime = null;
             String body = null;
             while (true) {
-                body = in.readLine(); // 当前socekt下的数据接收
+                body = in.readLine(); // 当前socekt下的数据接收// 阻塞接收数据-网卡，
                 if (body == null)
                     break;
                 System.out.println("the time server receive data :" + body);

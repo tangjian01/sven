@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.Random;
 
 /**
  * author: jian.tang@dmall.com
@@ -32,15 +33,14 @@ public class TimeClient {
             socket = new Socket(ip, port);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
-            for (int i = 10; i > 0; i--) {
-                //同一个socket下的链接
-                out.println(" query time order :" + i);
-                System.out.println(" send order  server succeed.  times:" + i);
-                String resp = in.readLine();
-                System.out.println("now is :" + resp);
+            //同一个socket下的链接
+            Double d = Math.random();
+            out.println(" query time order :" + d);
+            System.out.println(" send order  server succeed.  times:" + d);
+            String resp = in.readLine();
+            System.out.println("now is :" + resp);
 
-                Thread.sleep(1000);
-            }
+            Thread.sleep(1000);
         } catch (Exception ex) {
 
         } finally {
