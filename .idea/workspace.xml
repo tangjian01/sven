@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/NioTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/NioTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/NioMultiTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/NioTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer2Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/ChildChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/NioTimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/TimeServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/TimeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/target/classes/com/sven/netty/client/bio/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/target/classes/com/sven/netty/client/bio/TimeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +200,17 @@
       <workItem from="1608685261485" duration="1351000" />
       <workItem from="1608771653926" duration="3863000" />
       <workItem from="1609117031796" duration="1701000" />
+      <workItem from="1609220543088" duration="29000" />
+      <workItem from="1609376555532" duration="3721000" />
     </task>
+    <task id="LOCAL-00001" summary="NIO">
+      <created>1609220560420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609220560420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +242,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="NIO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
