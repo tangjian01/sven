@@ -5,7 +5,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * @author ：jian.tang@dmall.com
  * @date ：Created in 2020/12/21 9:13
  * @description：
  * @version:

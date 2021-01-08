@@ -8,7 +8,6 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
- * @author ：jian.tang@dmall.com
  * @date ：Created in 2020/12/31 9:11
  * @description：
  * @version:
@@ -16,6 +15,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  */
 public class TimeServer {
     public static void main(String[] args) {
+        System.setProperty("io.netty.noPreferDirect", "true");
         try {
             new TimeServer().bind(8080);
         } catch (InterruptedException e) {

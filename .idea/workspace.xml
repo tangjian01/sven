@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/ChildChannelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/NioTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/codec/CodecMessagePack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/netty/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/netty/TimeClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/NioTimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/NioTimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/NioTimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/NioTimeClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/TimeClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/NioMultiTimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/NioMultiTimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/NioTimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/NioTimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer2Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServer2Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/TimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/ChildChannelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/ChildChannelHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/NioTimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/NioTimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/netty/TimeServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +87,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3229885" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -94,7 +107,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NioTimeClient">
+  <component name="RunManager" selected="Application.CodecMessagePack">
+    <configuration name="CodecMessagePack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sven.netty.client.codec.CodecMessagePack" />
+      <module name="sven-netty-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sven.netty.client.codec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NioTimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sven.netty.client.bio.NioTimeClient" />
       <module name="sven-netty-client" />
@@ -121,14 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.sven.netty.client.bio.TimeClient" />
+    <configuration name="TimeClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sven.netty.client.netty.TimeClient" />
       <module name="sven-netty-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sven.netty.client.bio.*" />
+          <option name="PATTERN" value="com.sven.netty.client.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,49 +160,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sven.netty.server.TimeServer" />
+    <configuration name="TimeServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sven.netty.server.netty.TimeServer" />
       <module name="sven-netty-sever" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sven.netty.server.*" />
+          <option name="PATTERN" value="com.sven.netty.server.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sven-console" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sven.console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sven.console" />
-      <option name="MAIN_CLASS_NAME" value="com.sven.console.main" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimeServer" />
-      <item itemvalue="Application.TimeClient" />
       <item itemvalue="Application.NioTimeServer" />
       <item itemvalue="Application.NioTimeClient" />
-      <item itemvalue="JUnit.main.test" />
+      <item itemvalue="Application.TimeServer (1)" />
+      <item itemvalue="Application.TimeClient (1)" />
+      <item itemvalue="Application.CodecMessagePack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodecMessagePack" />
+        <item itemvalue="Application.TimeServer (1)" />
+        <item itemvalue="Application.TimeClient (1)" />
         <item itemvalue="Application.NioTimeClient" />
         <item itemvalue="Application.NioTimeServer" />
-        <item itemvalue="Application.TimeClient" />
-        <item itemvalue="Application.TimeServer" />
-        <item itemvalue="JUnit.main.test" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +209,9 @@
       <workItem from="1608771653926" duration="3863000" />
       <workItem from="1609117031796" duration="1701000" />
       <workItem from="1609220543088" duration="29000" />
-      <workItem from="1609376555532" duration="3721000" />
+      <workItem from="1609376555532" duration="3743000" />
+      <workItem from="1609722695507" duration="2228000" />
+      <workItem from="1610068295924" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="NIO">
       <created>1609220560420</created>
@@ -210,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609220560420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NIO">
+      <created>1609409417336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609409417336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,13 +284,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sven-netty/sven-netty-sever/src/main/java/com/sven/netty/server/NioMultiTimeServerHandler.java</url>
-          <line>108</line>
+          <line>107</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/bio/NioTimeClientHandler.java</url>
-          <line>106</line>
+          <line>105</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/codec/CodecMessagePack.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

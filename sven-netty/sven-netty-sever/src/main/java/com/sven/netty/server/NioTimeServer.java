@@ -1,7 +1,6 @@
 package com.sven.netty.server;
 
 /**
- * @author ：jian.tang@dmall.com
  * @date ：Created in 2020/12/24 9:01
  * @description：
  * @version:

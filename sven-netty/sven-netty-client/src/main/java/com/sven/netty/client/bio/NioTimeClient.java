@@ -1,7 +1,6 @@
 package com.sven.netty.client.bio;
 
 /**
- * @author ：jian.tang@dmall.com
  * @date ：Created in 2020/12/24 9:42
  * @description：
  * @version:

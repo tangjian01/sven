@@ -7,7 +7,6 @@ import java.net.Socket;
 import java.util.Random;
 
 /**
- * author: jian.tang@dmall.com
  * date: 2020/12/13
  * version: 2.0
  */
