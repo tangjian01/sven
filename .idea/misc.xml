@@ -5,11 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sven-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/console/pom.xml" />
+        <option value="$PROJECT_DIR$/sven-console/pom.xml" />
+        <option value="$PROJECT_DIR$/sven-dao/pom.xml" />
       </set>
     </option>
   </component>

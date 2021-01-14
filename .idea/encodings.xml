@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/console" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-console" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-es/sven-es-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-netty/sven-netty-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-netty/sven-netty-sever" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-thread/sven-thread-star" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sven-web" charset="UTF-8" />
   </component>
 </project>

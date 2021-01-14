@@ -7,14 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sven-console" />
-        <module name="sven-dao" />
         <module name="sven-netty-client" />
         <module name="sven-netty-sever" />
+        <module name="sven-es-api" />
+        <module name="sven-web" />
+        <module name="sven-thread-star" />
+        <module name="sven-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="console" target="1.8" />
+      <module name="sven-console" target="1.8" />
+      <module name="sven-dao" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sven-web" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,0 +1,115 @@
+{
+  "index_patterns": [
+    "es_demo_*"
+  ],
+  "settings": {
+    "number_of_shards": 2,
+    "number_of_replicas": 0,
+    "max_result_window": 1000000,
+    "refresh_interval": "10s",
+    "translog": {
+      "sync_interval": "10s",
+      "durability": "async"
+    }
+  },
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "workOrderNum": {
+        "type": "keyword"
+      },
+      "problemOneId": {
+        "type": "long"
+      },
+      "problemOneName": {
+        "type": "keyword"
+      },
+      "problemTwoId": {
+        "type": "long"
+      },
+      "storeId": {
+        "type": "long"
+      },
+      "storeName": {
+        "type": "keyword"
+      },
+      "venderId": {
+        "type": "long"
+      },
+      "venderName": {
+        "type": "keyword"
+      },
+      "grade": {
+        "type": "integer"
+      },
+      "content": {
+        "type": "text"
+      },
+      "contactPerson": {
+        "type": "keyword"
+      },
+      "yn": {
+        "type": "integer"
+      },
+      "createTime": {
+        "type": "date",
+        "format": "yyyy-MM-dd HH:mm:ss"
+      },
+      "visitStatus": {
+        "type": "integer"
+      },
+      "venderSubmitTimes": {
+        "type": "integer"
+      },
+      "ecologyType": {
+        "type": "integer"
+      },
+      "userGroupId": {
+        "type": "long"
+      },
+      "userGroupName": {
+        "type": "keyword"
+      },
+      "timeIndex": {
+        "properties": {
+          "id": {
+            "type": "long"
+          },
+          "workOrderId": {
+            "type": "long"
+          },
+          "workOrderNum": {
+            "type": "keyword"
+          },
+          "dutyId": {
+            "type": "long"
+          },
+          "dutyNum": {
+            "type": "keyword"
+          },
+          "kfResolveUserName": {
+            "type": "keyword"
+          },
+          "workTimeOutTime": {
+            "type": "date",
+            "format": "yyyy-MM-dd HH:mm:ss"
+          },
+          "workTimeOutUserId": {
+            "type": "long"
+          },
+          "workTimeOutUserName": {
+            "type": "keyword"
+          },
+          "workTimeOutUserGroup": {
+            "type": "integer"
+          },
+          "kfHandleDuration": {
+            "type": "float"
+          }
+        }
+      }
+    }
+  }
+}
