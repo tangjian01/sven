@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sven-netty-client" />
+        <module name="sven-ws-dao" />
         <module name="sven-netty-sever" />
         <module name="sven-es-api" />
         <module name="sven-web" />
@@ -23,7 +24,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sven-es-api" options="" />
+      <module name="sven-netty-client" options="" />
+      <module name="sven-netty-sever" options="" />
+      <module name="sven-thread-star" options="" />
       <module name="sven-web" options="-parameters" />
+      <module name="sven-ws-dao" options="" />
     </option>
   </component>
 </project>

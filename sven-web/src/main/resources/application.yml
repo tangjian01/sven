@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username: tangjian
+    password: tj2914**
+    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&amp;rewriteBatchedStatements=true&amp;allowMultiQueries=true&amp;useSSL=false&amp;connectTimeout=2000&amp;socketTimeout=10000
+    driver-class-name: com.mysql.jdbc.Driver
+
+  redis:
+    host: localhost
+    port: 6379

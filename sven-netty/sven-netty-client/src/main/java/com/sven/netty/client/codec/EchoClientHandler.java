@@ -42,7 +42,7 @@ public class EchoClientHandler extends ChannelHandlerAdapter {
         for (int i = 0; i < sendNumber; i++) {
             userInfo = new UserInfo();
             userInfo.setAge(i);
-            userInfo.setName("jian.tang -- " + i);
+            userInfo.setName(" -- " + i);
             userInfos[i] = userInfo;
         }
 
