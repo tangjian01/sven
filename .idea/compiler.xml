@@ -24,12 +24,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="sven-es-api" options="" />
-      <module name="sven-netty-client" options="" />
-      <module name="sven-netty-sever" options="" />
-      <module name="sven-thread-star" options="" />
+      <module name="sven-es-api" options="-parameters" />
+      <module name="sven-netty-client" options="-parameters" />
+      <module name="sven-netty-sever" options="-parameters" />
+      <module name="sven-thread-star" options="-parameters" />
       <module name="sven-web" options="-parameters" />
-      <module name="sven-ws-dao" options="" />
+      <module name="sven-ws-dao" options="-parameters" />
     </option>
   </component>
 </project>

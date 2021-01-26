@@ -3,7 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.1</version>
+    </parent>
     <groupId>sven-ws</groupId>
     <artifactId>sven-candy</artifactId>
     <packaging>pom</packaging>
@@ -14,6 +18,7 @@
         <module>sven-api</module>
         <module>sven-thread</module>
         <module>sven-ws-dao</module>
+        <module>sven-web</module>
     </modules>
     <properties>
         <lombok.version>1.18.12</lombok.version>
@@ -23,6 +28,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <mybatis.springboot>2.1.0</mybatis.springboot>
+        <mybatis-plus.version>3.4.0</mybatis-plus.version>
         <mysql.version>8.0.21</mysql.version>
     </properties>
     <dependencyManagement>
@@ -71,12 +77,28 @@
             </dependency>
 
 
-            <!-- mybatis依赖 -->
+            <!-- mybatis-plus 依赖 -->
             <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mybatis.springboot}</version>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-core</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <!-- mybatis依赖 -->
+<!--            <dependency>-->
+<!--                <groupId>org.mybatis.spring.boot</groupId>-->
+<!--                <artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--                <version>${mybatis.springboot}</version>-->
+<!--            </dependency>-->
             <!-- mysql依赖 -->
             <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
             <dependency>
@@ -85,11 +107,7 @@
                 <version>${mysql.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-test</artifactId>
-                <scope>test</scope>
-            </dependency>
+
 
             <!-- redis -->
             <dependency>

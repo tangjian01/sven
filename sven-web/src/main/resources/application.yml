@@ -1,10 +1,12 @@
 server:
   port: 8081
 spring:
+  profiles:
+    include: dao
   datasource:
-    username: tangjian
+    username: root
     password: tj2914**
-    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&amp;rewriteBatchedStatements=true&amp;allowMultiQueries=true&amp;useSSL=false&amp;connectTimeout=2000&amp;socketTimeout=10000
+    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&serverTimezone=GMT
     driver-class-name: com.mysql.jdbc.Driver
 
   redis:

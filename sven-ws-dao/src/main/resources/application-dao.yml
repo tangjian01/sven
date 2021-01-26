@@ -1,0 +1,11 @@
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    cache-enabled: false
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  typeAliasesPackage: sven.ws.dao.model
+  global-config:
+    refresh: true
+
+

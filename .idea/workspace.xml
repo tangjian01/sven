@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/controller/UserInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/vo/HttpResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-ws-dao/pom.xml" afterDir="false" />
+    <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="dao">
+      <change afterPath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/java/sven/ws/dao/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/java/sven/ws/dao/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/resources/application-dao.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/codec/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-netty/sven-netty-client/src/main/java/com/sven/netty/client/codec/EchoClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sven-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/SvenWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/SvenWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-web/src/test/java/sven/ws/web/SvenWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/src/test/java/sven/ws/web/SvenWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-ws-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-ws-dao/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,19 +85,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sven-es/sven-es-api/src/main/resources/es" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sven-ws-dao/src/main/resources" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3229885" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\sven\sven-es\sven-es-api\src\main\resources\es" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\sven\sven-console\src\main\resources\rules.test" />
       <recent name="D:\project\sven\sven-console\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\sven\sven-ws-dao\src\main\resources" />
+      <recent name="D:\project\sven\sven-es\sven-es-api\src\main\resources\es" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,7 +230,7 @@
       <workItem from="1610068295924" duration="2618000" />
       <workItem from="1610602921667" duration="11857000" />
       <workItem from="1611216278338" duration="5029000" />
-      <workItem from="1611649507702" duration="3519000" />
+      <workItem from="1611649507702" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="NIO">
       <created>1609220560420</created>
@@ -270,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610616189639</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dao">
+      <created>1611656398218</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611656398218</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +328,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="NIO" />
     <MESSAGE value="elasticsearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch" />
+    <MESSAGE value="dao" />
+    <option name="LAST_COMMIT_MESSAGE" value="dao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -356,6 +368,16 @@
           <url>file://$PROJECT_DIR$/sven-es/sven-es-api/src/main/java/com/sven/es/main.java</url>
           <line>102</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/controller/UserInfoController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/controller/UserInfoController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
