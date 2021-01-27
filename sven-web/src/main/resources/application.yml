@@ -3,6 +3,12 @@ server:
 spring:
   profiles:
     include: dao
+    active: dev
+  application:
+    name: sven
+  banner:
+    charset: UTF-8
+    location: classpath:banner.txt
   datasource:
     username: root
     password: tj2914**
