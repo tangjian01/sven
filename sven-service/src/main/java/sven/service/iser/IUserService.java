@@ -5,7 +5,7 @@ import sven.service.base.IBaseService;
 
 /**
  * <p>
- *  服务类
+ * 用户表 服务类
  * </p>
  *
  * @author tj

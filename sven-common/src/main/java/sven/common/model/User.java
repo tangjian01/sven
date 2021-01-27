@@ -5,10 +5,11 @@ import sven.common.base.BaseModel;
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import sven.common.enums.user.UserTypeEnum;
 
 /**
  * <p>
- * 
+ * 用户表
  * </p>
  *
  * @author tj
@@ -33,5 +34,10 @@ public class User extends BaseModel {
     @TableField("age")
     private Integer age;
 
+    /**
+     * 性别
+     */
+    @TableField("user_type")
+    private UserTypeEnum userType;
 
 }
