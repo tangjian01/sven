@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="集成mybatis-plus">
-      <change afterPath="$PROJECT_DIR$/sven-common/src/main/java/sven/common/enums/IBaseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-common/src/main/java/sven/common/enums/user/UserTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f58b5337-d49a-4070-be7a-fc6a3c452b88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-common/src/main/java/sven/common/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-common/src/main/java/sven/common/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-service/src/main/java/sven/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-service/src/main/java/sven/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-service/src/main/java/sven/service/iser/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-service/src/main/java/sven/service/iser/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/SvenWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/SvenWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-web/src/main/java/sven/ws/web/controller/UserInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-ws-dao/src/main/java/sven/ws/dao/mapper/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/java/sven/ws/dao/mapper/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sven-ws-dao/src/main/resources/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/resources/application-dao.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-ws-dao/src/main/java/sven/ws/dao/generator/GeneratorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/java/sven/ws/dao/generator/GeneratorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sven-ws-dao/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sven-ws-dao/src/main/resources/generator.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611720536339</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="集成mybatis-plus">
+      <created>1611727654810</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611727654810</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

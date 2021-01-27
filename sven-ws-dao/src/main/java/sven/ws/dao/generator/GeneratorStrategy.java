@@ -41,11 +41,15 @@ public class GeneratorStrategy {
 
         strategy.setRestControllerStyle(true);
 
+        String entityClass = properties.getProperty("super.base.model.class");
+        String serviceClass = properties.getProperty("super.base.service.class");
+        String implClass = properties.getProperty("super.base.impl.class");
+        String controllerClass = properties.getProperty("super.base.controller.class");
         // 公共父类
-        strategy.setSuperEntityClass("sven.common.base.BaseModel");
-        strategy.setSuperServiceClass("sven.service.base.IBaseService");
-        strategy.setSuperServiceImplClass("sven.service.base.BaseServiceImpl");
-        strategy.setSuperControllerClass("sven.ws.web.base.BaseController");
+        strategy.setSuperEntityClass(entityClass);
+        strategy.setSuperServiceClass(serviceClass);
+        strategy.setSuperServiceImplClass(implClass);
+        strategy.setSuperControllerClass(controllerClass);
 
         if (ArrayUtils.isNotEmpty(tableNames)) {
             strategy.setInclude(tableNames);
@@ -54,7 +58,6 @@ public class GeneratorStrategy {
         strategy.setEntityTableFieldAnnotationEnable(true);
         // 写于父类中的公共字段
         strategy.setSuperEntityColumns("id");
-//        strategy.setInclude("ws_work_order_nw,base_area".split(","));
         strategy.setControllerMappingHyphenStyle(true);
         if (CollectionUtils.isNotEmpty(tablePrefixs)) {
             strategy.setTablePrefix(tablePrefixs.toArray(new String[tablePrefixs.size()]));
@@ -113,12 +116,12 @@ public class GeneratorStrategy {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent("");
-        pc.setMapper("sven.ws.dao.mapper");
-        pc.setEntity("sven.common.model");
-        pc.setXml("mapper");
-        pc.setService("sven.service.iser");
-        pc.setServiceImpl("sven.service.impl");
-        pc.setController("sven.ws.web.controller");
+        pc.setMapper(properties.getProperty("package.path.dao"));
+        pc.setEntity(properties.getProperty("package.path.model"));
+        pc.setXml(properties.getProperty("package.path.xml"));
+        pc.setService(properties.getProperty("package.path.service"));
+        pc.setServiceImpl(properties.getProperty("package.path.impl"));
+        pc.setController(properties.getProperty("package.path.controller"));
 
         pc.setPathInfo(setPathInfo(pc));
 
