@@ -4,8 +4,9 @@ mybatis-plus:
     auto-mapping-behavior: full
     cache-enabled: false
   mapper-locations: classpath:/mapper/*Mapper.xml
-  typeAliasesPackage: sven.ws.dao.model
+  typeAliasesPackage: sven.ws.dao.model,sven.common.model
   global-config:
     refresh: true
+  type-enums-package: sven.common.enums
 
 

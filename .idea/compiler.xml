@@ -8,13 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sven-netty-client" />
-        <module name="sven-dao" />
         <module name="sven-ws-dao" />
+        <module name="sven-service" />
         <module name="sven-netty-sever" />
         <module name="sven-es-api" />
         <module name="sven-web" />
+        <module name="sven-candy-dao" />
         <module name="sven-thread-star" />
         <module name="sven-api" />
+        <module name="sven-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,10 +26,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sven-candy-dao" options="-parameters" />
+      <module name="sven-common" options="-parameters" />
       <module name="sven-dao" options="-parameters" />
       <module name="sven-es-api" options="-parameters" />
       <module name="sven-netty-client" options="-parameters" />
       <module name="sven-netty-sever" options="-parameters" />
+      <module name="sven-service" options="-parameters" />
       <module name="sven-thread-star" options="-parameters" />
       <module name="sven-web" options="-parameters" />
       <module name="sven-ws-dao" options="-parameters" />

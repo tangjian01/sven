@@ -19,6 +19,8 @@
         <module>sven-thread</module>
         <module>sven-ws-dao</module>
         <module>sven-web</module>
+        <module>sven-common</module>
+        <module>sven-service</module>
     </modules>
     <properties>
         <lombok.version>1.18.12</lombok.version>
@@ -93,6 +95,11 @@
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity-engine-core</artifactId>
+                <version>2.0</version>
+            </dependency>
             <!-- mybatis依赖 -->
 <!--            <dependency>-->
 <!--                <groupId>org.mybatis.spring.boot</groupId>-->
@@ -120,7 +127,11 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.11</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
