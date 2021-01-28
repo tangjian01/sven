@@ -1,0 +1,33 @@
+server:
+  port: 8081
+spring:
+  banner:
+    charset: UTF-8
+    location: classpath:banner.txt
+  datasource:
+    username: root
+    password: tj2914**
+    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&rewriteBatchedStatements=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 5000
+    jedis:
+      pool:
+        max-idle: 500
+        min-idle: 10
+        max-wait: -1
+        max-active: -1
+sven:
+  log:
+    path: d:/project/log/sven
+management:
+  health:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: ["*"]

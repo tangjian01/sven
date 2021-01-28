@@ -1,23 +1,4 @@
-server:
-  port: 8081
 spring:
   profiles:
     include: dao
-    active: dev
-  application:
-    name: sven
-  banner:
-    charset: UTF-8
-    location: classpath:banner.txt
-  datasource:
-    username: root
-    password: tj2914**
-    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&rewriteBatchedStatements=true
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-  redis:
-    host: localhost
-    port: 6379
-sven:
-  log:
-    path: d:/project/log/sven
+    active: @profiles.active@

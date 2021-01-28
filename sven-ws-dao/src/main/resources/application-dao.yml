@@ -8,5 +8,3 @@ mybatis-plus:
   global-config:
     refresh: true
   type-enums-package: sven.common.enums
-
-
