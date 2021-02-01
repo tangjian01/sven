@@ -12,5 +12,5 @@ import sven.service.base.IBaseService;
  * @since 2021-01-27
  */
 public interface IUserService extends IBaseService<User> {
-
+    User getByUserName(String loginAccount);
 }

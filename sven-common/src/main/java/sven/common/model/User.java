@@ -40,4 +40,9 @@ public class User extends BaseModel {
     @TableField("user_type")
     private UserTypeEnum userType;
 
+    /**
+     * 密码
+     */
+    @TableField("password")
+    private String password;
 }
