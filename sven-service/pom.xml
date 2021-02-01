@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>sven-ws</groupId>
-            <artifactId>sven-candy-dao</artifactId>
+            <artifactId>sven-ws-dao</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
