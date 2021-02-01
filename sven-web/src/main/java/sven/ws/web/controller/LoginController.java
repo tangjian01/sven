@@ -48,6 +48,6 @@ public class LoginController extends BaseController {
 
         log.info("session_id:{}",session_id);
 
-        return HttpResult.ok();
+        return HttpResult.ok( SecurityContextHolder.getContext().getAuthentication().getPrincipal() ," 登录成功 !" );
     }
 }
