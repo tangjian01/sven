@@ -1,0 +1,46 @@
+server:
+  port: 8082
+spring:
+  banner:
+    charset: UTF-8
+    location: classpath:banner.txt
+  datasource:
+    username: root
+    password: tj2914**
+    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&rewriteBatchedStatements=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 5000
+    jedis:
+      pool:
+        max-idle: 500
+        min-idle: 10
+        max-wait: -1
+        max-active: -1
+  application:
+    name: dubbo-consumer
+  dubbo:
+    application:            #应用配置，用于配置当前应用信息，不管该应用是提供者还是消费者。
+      name: consumer
+    registry:                 #注册中心配置，用于配置连接注册中心相关信息。
+      address: zookeeper://127.0.0.1:2181
+    protocol:     #协议配置，用于配置提供服务的协议信息，协议由提供方指定，消费方被动接受（订阅）。
+      name: dubbo
+      port: 20880
+    consumer:
+      check: false
+    reference:
+      loadbalance: roundrobin #轮询机制
+sven:
+  log:
+    path: d:/project/log/sven
+management:
+  health:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: ["*"]
