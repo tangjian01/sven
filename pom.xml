@@ -23,6 +23,7 @@
         <module>sven-common</module>
         <module>sven-service</module>
         <module>sven-dubbo</module>
+        <module>sven-console</module>
     </modules>
     <properties>
         <lombok.version>1.18.12</lombok.version>

@@ -5,9 +5,9 @@ spring:
     charset: UTF-8
     location: classpath:banner.txt
   datasource:
-    username: root
+    username: tangjian
     password: tj2914**
-    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&rewriteBatchedStatements=true
+    url: jdbc:mysql://localhost:3306/sven?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
     host: localhost
