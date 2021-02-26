@@ -16,8 +16,6 @@ import org.springframework.context.ApplicationContextAware;
 public class BeanTest1  implements InitializingBean, ApplicationContextAware {
 
     private ApplicationContext applicationContext;
-    @Autowired
-    private BeanTest2 test2;
 
     @Override
     public void afterPropertiesSet() throws Exception {
@@ -36,6 +34,5 @@ public class BeanTest1  implements InitializingBean, ApplicationContextAware {
     }
 
     public void callAutowired(){
-        System.out.println("test2 is null " + (test2 == null) );
     }
 }

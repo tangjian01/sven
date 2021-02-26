@@ -5,4 +5,9 @@
 
     <bean id="testbeanIniliaz" class="sven.console.test.bean.BeanTest1" init-method="init"></bean>
     <bean id="testbeanIniliaz2" class="sven.console.test.bean.BeanTest2"></bean>
+
+
+    <bean id="myBeanFactoryPostProcessor" class="sven.console.test.bean.MyBeanFactoryPostProcessor"></bean>
+
+
 </beans>
